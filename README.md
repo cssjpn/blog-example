@@ -1,14 +1,20 @@
 # Blog Example
 
-This is example CSS blog.
+[template] Microsoft CSS Japan example blog repository.
 
-## Init/Update [blog theme](https://github.com/jpazureid/hexo-theme-jpazure) submodule
+## Getting Started
+
+[Getting Started](./docs/getting-started.md)
+
+## Init / Update blog theme
+
+https://github.com/jpazureid/hexo-theme-jpazure
 
 ```shell
 git submodule update -i
 ```
 
-## Run/Stop Hexo server
+## Start / Stop Hexo server (local-preview)
 
 ```shell
 docker-compose up
@@ -22,8 +28,8 @@ docker-compose down
 ```
 example
 ├── .github
-│   └── workflows
-│       └── pages.yml  # Workflow definition for GitHub Action
+│   └── workflows      # Workflows for GitHub Actions
+│       └── upload-gh-pages.yml
 ├── .gitignore
 ├── .textlintrc
 ├── README.md
@@ -31,7 +37,8 @@ example
 ├── articles           # Blog articles
 │   └── information
 │       └── test.md    # Example post
-├── docker-compose.yaml    # Configuration for container to run locally
+├── docker-compose.yaml    # Configuration for containers (local-preview)
+├── docs               # Documents
 ├── github-issue-template.md
 ├── scaffolds
 ├── source
