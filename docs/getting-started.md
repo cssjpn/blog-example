@@ -109,7 +109,9 @@ $ docker-compose down
 
 In this tutorial, we use [GitHub Actions](https://docs.github.com/en/actions) to deploy [GitHub Pages](https://pages.github.com/).
 
-The repository already has a workflow for GitHub Pages ([`.github/workflows/upload-gh-pages.yml`](../example/.github/workflows/upload-gh-pages.yml)). You can achieve publishing your blog easily with following steps.
+The repository already has a workflow for GitHub Pages ([.github/workflows/upload-gh-pages.yml](https://github.com/cssjpn/blog-example/blob/main/.github/workflows/upload-gh-pages.yml)).
+
+You can achieve publishing your blog easily with following steps.
 
 ### Commit your changes and Create Pull Request
 
