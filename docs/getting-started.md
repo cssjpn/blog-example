@@ -66,7 +66,10 @@ $ git submodule update -i
 You can configure most settings here.
 
 ```shell
+# edit config with your favorite editor
+$ code _config.yml
 $ vim _config.yml
+...
 ```
 
 ## Writing blog articles
@@ -77,7 +80,7 @@ Now you can start writing articles!
 # Create new branch
 $ git checkout -b add_article
 
-# Create or Edit articles
+# Create or Edit articles with your favorite editor
 $ vim articles/information/test.md
 ```
 
