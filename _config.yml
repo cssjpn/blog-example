@@ -27,6 +27,7 @@ url: https://cssjpn.github.io/example-blog/
 github:
   url: https://github.com/cssjpn/blog-example/
   posts_dir: articles
+  default_branch: main
 
 skip_render:
   - '_data/*.png'
