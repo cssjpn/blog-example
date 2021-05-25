@@ -12,6 +12,7 @@ description: Japan CSS Support Example Blog
 # Keywords
 keywords:
   - Information
+  - Example
 
 author: CSS Japan
 
@@ -34,10 +35,10 @@ skip_render:
   # Bing Webmaster
   - 'BingSiteAuth.xml'
   # Search Console
-  # - 'googlec4da4c631e14b86c.html'
+  # - 'googlec1234567890abcde.html'
 
 # Deployment
-## Docs: https://hexo.io/doc  s/deployment.html
+## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: git@github.com:cssjpn/blog-example.git
@@ -46,7 +47,7 @@ deploy:
 
 root: /blog/
 permalink: :title/
-permalink_defaults: 
+permalink_defaults:
 
 language: ja
 timezone: asia/Tokyo
@@ -113,8 +114,8 @@ feed:
   path: atom.xml
   limit: 20
 
-  # show disclaimer in all article by default. disableDisclaimer of article's option set true hide.
-# ex) 
+# show disclaimer in all article by default. disableDisclaimer of article's option set true hide.
+# ex)
 # ---
 # title: Article Title
 # date: 2020-04-30 10:00
