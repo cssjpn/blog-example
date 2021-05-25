@@ -24,7 +24,7 @@ root_tag_generator:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://cssjpn.github.io/example-blog/
+url: https://cssjpn.github.io/blog/
 github:
   url: https://github.com/cssjpn/blog-example/
   posts_dir: articles
