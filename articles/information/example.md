@@ -3,7 +3,8 @@ title: サンプル記事 - タイトル
 date: 2021-01-01 12:00:00
 tags:
   - Information
-disableDisclaimer: true
+  - Example
+disableDisclaimer: false
 ---
 
 <!-- 文字修飾 -->
