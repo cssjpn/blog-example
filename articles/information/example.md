@@ -55,7 +55,11 @@ disableDisclaimer: false
 
 [Japan Azure IaaS Core Support Blog](https://jpaztech.github.io/blog/)
 
-<!-- 画像 -->
+<!-- 画像 (リポジトリ内ファイルを参照 -->
+
+![](./example/example01.png)
+
+<!-- 画像 (外部 URL を参照) -->
 
 ![](https://jpaztech.github.io/blog/vm/re-install-windows-azure-guest-agent/service.png)
 
