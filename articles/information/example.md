@@ -3,8 +3,15 @@ title: サンプル記事 - タイトル
 date: 2021-01-01 12:00:00
 tags:
   - Information
-disableDisclaimer: true
+  - Example
+disableDisclaimer: false
 ---
+
+記事概要
+
+<!-- more -->
+
+記事本文
 
 <!-- 文字修飾 -->
 
@@ -48,7 +55,11 @@ disableDisclaimer: true
 
 [Japan Azure IaaS Core Support Blog](https://jpaztech.github.io/blog/)
 
-<!-- 画像 -->
+<!-- 画像 (リポジトリ内ファイルを参照 -->
+
+![](./example/example01.png)
+
+<!-- 画像 (外部 URL を参照) -->
 
 ![](https://jpaztech.github.io/blog/vm/re-install-windows-azure-guest-agent/service.png)
 
@@ -66,4 +77,35 @@ net stop WindowsAzureTelemetryService
 | ---- | ---- |
 | セル | セル |
 | セル | セル |
+
+<!-- ノート -->
+
+> [!NOTE]
+> THIS IS NOTE
+> `[!NOTE]` と書くと `Note` になります。
+> これだけ MS 公式ドキュメントと異なります。 (公式ドキュメントだと `NOTE` も `注意` に変換される…)
+
+<!-- ヒント -->
+
+> [!TIP]
+> THIS IS TIP
+> `[!TIP]` とかくと `ヒント` になります。
+
+<!-- 重要 -->
+
+> [!IMPORTANT]
+> THIS IS IMPORTANT
+> `[!IMPORTANT]` とかくと `重要` になります。
+
+<!-- 注意事項 -->
+
+> [!CAUTION]
+> THIS IS CAUTION
+> `[!CAUTION]` と書くと `注意事項` になります。
+
+<!-- 注意 -->
+
+> [!WARNING]
+> THIS IS WARNING
+> `[!WARNING]` と書くと `警告` になります。
 
