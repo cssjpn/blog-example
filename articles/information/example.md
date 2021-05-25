@@ -68,3 +68,34 @@ net stop WindowsAzureTelemetryService
 | セル | セル |
 | セル | セル |
 
+<!-- ノート -->
+
+> [!NOTE]
+> THIS IS NOTE
+> `[!NOTE]` と書くと `Note` になります。
+> これだけ MS 公式ドキュメントと異なります。 (公式ドキュメントだと `NOTE` も `注意` に変換される…)
+
+<!-- ヒント -->
+
+> [!TIP]
+> THIS IS TIP
+> `[!TIP]` とかくと `ヒント` になります。
+
+<!-- 重要 -->
+
+> [!IMPORTANT]
+> THIS IS IMPORTANT
+> `[!IMPORTANT]` とかくと `重要` になります。
+
+<!-- 注意事項 -->
+
+> [!CAUTION]
+> THIS IS CAUTION
+> `[!CAUTION]` と書くと `注意事項` になります。
+
+<!-- 注意 -->
+
+> [!WARNING]
+> THIS IS WARNING
+> `[!WARNING]` と書くと `警告` になります。
+
