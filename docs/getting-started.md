@@ -1,3 +1,5 @@
+> NOTE: This document is cloned from [cssjpn/blog-example](https://github.com/cssjpn/blog-example/blob/main/docs/getting-started.md)
+
 # Getting Started
 
 This guide covers getting started with the `blog-template`.
@@ -159,3 +161,13 @@ Now you can access your blog! :tada:
 `https://${ORG_NAME}.github.io/blog/`
 
 It could be takes few minutes. If you got 404 page, please try to access later.
+
+## Next steps
+
+In this guide, you created a blog repository and then deployed site to GitHub Pages using GitHub Actions workflow.
+
+For more information about GitHub Actions for CSS Blog, see the [cssjpn/blog-gh-actions](https://github.com/cssjpn/blog-gh-actions) End-to-End Sample Workflows.
+
+* [Build blog and Publish to GitHub Pages](https://github.com/cssjpn/blog-gh-actions/blob/main/docs/upload-gh-pages.md)
+* [Deploy preview site for Pull Requests](https://github.com/cssjpn/blog-gh-actions/blob/main/docs/deploy-preview.md)
+
