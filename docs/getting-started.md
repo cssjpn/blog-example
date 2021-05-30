@@ -1,3 +1,5 @@
+> NOTE: This document is cloned from [cssjpn/blog-example](https://github.com/cssjpn/blog-example/blob/main/docs/getting-started.md)
+
 # Getting Started
 
 This guide covers getting started with the `blog-template`.
