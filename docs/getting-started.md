@@ -2,7 +2,7 @@
 
 # Getting Started
 
-This guide covers getting started with the `blog-template`.
+This guide covers getting started with the `blog-example`.
 
 ## Installation
 
@@ -36,12 +36,12 @@ $ docker-compose
 
 Navigate to the [cssjpn/blog-example](https://github.com/cssjpn/blog-example) page. Above the file list, click **Use this template**.
 
-![](./images/getting-started01.png)
+<img src="./images/getting-started01.png" width="600" />
 
 Select your organization from **Owner** menu, and type a name for your blog repository (ex. blog).
 Click **Create repository from template**.
 
-![](./images/getting-started02.png)
+<img src="./images/getting-started02.png" width="600" />
 
 ### Cloning a repository
 
@@ -155,7 +155,7 @@ Once the workflow is finished, the generated pages can be found in the `gh-pages
 
 To configure GitHub Pages, navigate **Settings** > **Pages** section. Select `gh-pages` branch as source and click **Save**.
 
-![](./images/getting-started03.png)
+<img src="./images/getting-started03.png" width="600" />
 
 Now you can access your blog! :tada:
 `https://${ORG_NAME}.github.io/blog/`
@@ -170,4 +170,3 @@ For more information about GitHub Actions for CSS Blog, see the [cssjpn/blog-gh-
 
 * [Build blog and Publish to GitHub Pages](https://github.com/cssjpn/blog-gh-actions/blob/main/docs/upload-gh-pages.md)
 * [Deploy preview site for Pull Requests](https://github.com/cssjpn/blog-gh-actions/blob/main/docs/deploy-preview.md)
-
