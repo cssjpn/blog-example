@@ -74,6 +74,41 @@ $ vim _config.yml
 ...
 ```
 
+If you want to modify the blog from the template design to fit your team, you need to change the following settings.
+
+- title and subtitle
+- url and github
+- root
+- disclaimer
+
+### title and subtitle:
+
+By changing the title and subtitle, you can change the wording of the top of the blog as shown in the image
+
+![](./images/blog-walkthrough_2021-05-13-21-21-02.png)
+
+### url and github:
+
+Write the URL of the Github Pages of your blog in "url:".
+Also, in "github:", Describe the github repository of your blog.
+
+![](./images/blog-walkthrough_2021-05-13-21-33-10.png)
+
+The Github Pages URL you would specify as "url:" is normally https://\<organization or account name\>.github.io/\<repo name\>/.
+
+The Github repo name you would specify as "github:" is normally https://github.com/\<organization or account name\>/\<repo name\>/
+
+### root:
+
+If the repo name is not /blog, specify that name for root. repo name and root must be the same.
+
+![](./images/blog-walkthrough_2021-05-13-21-50-59.png)
+
+### disclaimer
+
+A disclaimer will be placed at the end of every article, which can be disabled by setting disableDisclaimer: true.
+
+
 ## Writing blog articles
 
 Now you can start writing articles!
