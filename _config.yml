@@ -29,6 +29,8 @@ github:
   url: https://github.com/cssjpn/blog-example/
   posts_dir: articles
   default_branch: main
+  # show last update and contributors from GitHub API and show in post header
+  show_additional_info: false
 
 skip_render:
   - '_data/*.png'
@@ -113,6 +115,14 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+
+# https://hexo.io/docs/helpers#toc
+toc:
+  # if true, toc will be auto display in all article which has more than one h2 tag
+  enabled: false
+  min_depth: 1
+  max_depth: 4
+  list_number: false
 
 # show disclaimer in all article by default. disableDisclaimer of article's option set true hide.
 # ex)
