@@ -38,6 +38,7 @@
 		"vscode": {
 			"extensions": [
 				"mushan.vscode-paste-image",
+				"watahani.markdown-image-paste-for-remote",
 				"GitHub.copilot",
 				"taichi.vscode-textlint",
 				"eamodio.gitlens",
