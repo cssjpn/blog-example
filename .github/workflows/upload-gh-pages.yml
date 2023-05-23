@@ -1,5 +1,8 @@
 name: upload-gh-pages
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
